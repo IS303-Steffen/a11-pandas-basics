@@ -1,0 +1,208 @@
+[
+    {
+        "id_input_test_case": 1,
+        "input_test_case_description": "Printing all correct data",
+        "inputs": [],
+        "input_prompts": [],
+        "printed_messages": [
+            "0          New York\n1       Los Angeles\n2           Chicago\n3           Seattle\n4           Houston\n5      Philadelphia\n6            Boston\n7     San Francisco\n8            Newark\n9         San Diego\n10         New York\n11      Los Angeles\n12          Chicago\n13          Seattle\n14          Houston\n15     Philadelphia\n16           Boston\n17    San Francisco\n18           Newark\n19        San Diego\n20         New York\n21      Los Angeles\n22          Chicago\n23          Seattle\n24          Houston\n25     Philadelphia\n26           Boston\n27    San Francisco\n28           Newark\n29        San Diego\nName: city, dtype: object",
+            "\n                 name  age\n0           John Doe   35\n1         Jane Smith   28\n2       Frank Wright   40\n3          Amy Adams   30\n4       Rachel Green   32\n5      Chandler Bing   36\n6        Ross Geller   37\n7      Monica Geller   34\n8     Joey Tribbiani   38\n9      Phoebe Buffay   36\n10         Bob Dylan   41\n11      Sarah Connor   29\n12        James Dean   50\n13   Natalie Portman   31\n14       Jack Dawson   42\n15      Tracy Jordan   39\n16         Liz Lemon   37\n17     Jenna Maroney   40\n18   Kenneth Parcell   27\n19   Frank Rossitano   35\n20          Lucy Liu   50\n21      Marc Anthony   29\n22       Bruce Wayne   33\n23        Clark Kent   36\n24      Diana Prince   32\n25      Peter Parker   21\n26      Harry Potter   29\n27  Hermione Granger   28\n28       Ron Weasley   30\n29      Draco Malfoy   31",
+            "\n              name  age    city  salary\n8  Joey Tribbiani   38  Newark   56000",
+            "\n          name  age         city  salary\n1  Jane Smith   29  Los Angeles   65000",
+            "\n                name  age           city    seniority  salary\n23       Clark Kent   36        Seattle  Experienced   94000\n16        Liz Lemon   37         Boston  Experienced   91000\n7     Monica Geller   34  San Francisco                80000\n6       Ross Geller   37         Boston  Experienced   72000\n3         Amy Adams   30        Seattle                71000\n13  Natalie Portman   31        Seattle                62000\n17    Jenna Maroney   40  San Francisco  Experienced   58000",
+            "\n 75428.57",
+            "\n city\nBoston           81500.000000\nSan Francisco    69000.000000\nSeattle          75666.666667\nName: salary, dtype: float64"
+        ],
+        "invalid_input_prompts": [],
+        "invalid_printed_messages": [],
+        "bools": {},
+        "ints": {},
+        "strings": {},
+        "floats": {},
+        "lists": {},
+        "dicts": {},
+        "DataFrame": {
+            "df_people": {
+                "__class__": "DataFrame",
+                "__attributes__": {
+                    "_is_copy": null,
+                    "_mgr": {
+                        "__class__": "BlockManager",
+                        "__attributes__": {}
+                    },
+                    "_item_cache": {
+                        "salary": {
+                            "__class__": "Series",
+                            "__attributes__": {
+                                "_is_copy": null,
+                                "_mgr": {
+                                    "__class__": "SingleBlockManager",
+                                    "__attributes__": {
+                                        "axes": [
+                                            {
+                                                "__class__": "Index",
+                                                "__attributes__": {
+                                                    "_data": "array([23, 16,  7,  6,  3, 13, 17])",
+                                                    "_name": null,
+                                                    "_cache": {
+                                                        "dtype": "dtype('int64')"
+                                                    },
+                                                    "_id": "<object object at 0x104223d30>",
+                                                    "_references": "<pandas._libs.internals.BlockValuesRefs object at 0x107f277f0>"
+                                                }
+                                            }
+                                        ],
+                                        "blocks": [
+                                            {
+                                                "__class__": "NumpyBlock",
+                                                "__attributes__": {}
+                                            }
+                                        ],
+                                        "_cache": {
+                                            "_block": {
+                                                "__class__": "NumpyBlock",
+                                                "__attributes__": {}
+                                            }
+                                        }
+                                    }
+                                },
+                                "_item_cache": {},
+                                "_attrs": {},
+                                "_flags": {
+                                    "__class__": "Flags",
+                                    "__attributes__": {
+                                        "_allows_duplicate_labels": true,
+                                        "_obj": "<weakref at 0x1105967f0; to 'Series' at 0x105eda750>"
+                                    }
+                                },
+                                "_name": "salary",
+                                "_cacher": [
+                                    "salary",
+                                    "<weakref at 0x11055bf60; to 'DataFrame' at 0x105fa7740>"
+                                ]
+                            }
+                        },
+                        "city": {
+                            "__class__": "Series",
+                            "__attributes__": {
+                                "_is_copy": null,
+                                "_mgr": {
+                                    "__class__": "SingleBlockManager",
+                                    "__attributes__": {
+                                        "axes": [
+                                            {
+                                                "__class__": "Index",
+                                                "__attributes__": {
+                                                    "_data": "array([23, 16,  7,  6,  3, 13, 17])",
+                                                    "_name": null,
+                                                    "_cache": {
+                                                        "dtype": "dtype('int64')"
+                                                    },
+                                                    "_id": "<object object at 0x104223d30>",
+                                                    "_references": "<pandas._libs.internals.BlockValuesRefs object at 0x107f277f0>"
+                                                }
+                                            }
+                                        ],
+                                        "blocks": [
+                                            {
+                                                "__class__": "NumpyBlock",
+                                                "__attributes__": {}
+                                            }
+                                        ],
+                                        "_cache": {
+                                            "_block": {
+                                                "__class__": "NumpyBlock",
+                                                "__attributes__": {}
+                                            }
+                                        }
+                                    }
+                                },
+                                "_item_cache": {},
+                                "_attrs": {},
+                                "_flags": {
+                                    "__class__": "Flags",
+                                    "__attributes__": {
+                                        "_allows_duplicate_labels": true,
+                                        "_obj": "<weakref at 0x110596a20; to 'Series' at 0x1105702f0>"
+                                    }
+                                },
+                                "_name": "city",
+                                "_cacher": [
+                                    "city",
+                                    "<weakref at 0x11055bf60; to 'DataFrame' at 0x105fa7740>"
+                                ]
+                            }
+                        }
+                    },
+                    "_attrs": {},
+                    "_flags": {
+                        "__class__": "Flags",
+                        "__attributes__": {
+                            "_allows_duplicate_labels": true,
+                            "_obj": "<weakref at 0x11055bf60; to 'DataFrame' at 0x105fa7740>"
+                        }
+                    }
+                }
+            }
+        },
+        "Series": {
+            "df_grouped": {
+                "__class__": "Series",
+                "__attributes__": {
+                    "_is_copy": null,
+                    "_mgr": {
+                        "__class__": "SingleBlockManager",
+                        "__attributes__": {
+                            "axes": [
+                                {
+                                    "__class__": "Index",
+                                    "__attributes__": {
+                                        "_data": "array(['Boston', 'San Francisco', 'Seattle'], dtype=object)",
+                                        "_name": "city",
+                                        "_cache": {
+                                            "dtype": "dtype('O')",
+                                            "_is_multi": false
+                                        },
+                                        "_id": "<object object at 0x1105883c0>",
+                                        "_references": "<pandas._libs.internals.BlockValuesRefs object at 0x110570820>"
+                                    }
+                                }
+                            ],
+                            "blocks": [
+                                {
+                                    "__class__": "NumpyBlock",
+                                    "__attributes__": {
+                                        "_cache": {
+                                            "dtype": "dtype('float64')"
+                                        }
+                                    }
+                                }
+                            ],
+                            "_cache": {
+                                "_block": {
+                                    "__class__": "NumpyBlock",
+                                    "__attributes__": {
+                                        "_cache": {
+                                            "dtype": "dtype('float64')"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "_item_cache": {},
+                    "_attrs": {},
+                    "_flags": {
+                        "__class__": "Flags",
+                        "__attributes__": {
+                            "_allows_duplicate_labels": true,
+                            "_obj": "<weakref at 0x110596ca0; to 'Series' at 0x110570920>"
+                        }
+                    },
+                    "_name": "salary"
+                }
+            }
+        },
+        "example_output": "0          New York\n1       Los Angeles\n2           Chicago\n3           Seattle\n4           Houston\n5      Philadelphia\n6            Boston\n7     San Francisco\n8            Newark\n9         San Diego\n10         New York\n11      Los Angeles\n12          Chicago\n13          Seattle\n14          Houston\n15     Philadelphia\n16           Boston\n17    San Francisco\n18           Newark\n19        San Diego\n20         New York\n21      Los Angeles\n22          Chicago\n23          Seattle\n24          Houston\n25     Philadelphia\n26           Boston\n27    San Francisco\n28           Newark\n29        San Diego\nName: city, dtype: object\n\n                 name  age\n0           John Doe   35\n1         Jane Smith   28\n2       Frank Wright   40\n3          Amy Adams   30\n4       Rachel Green   32\n5      Chandler Bing   36\n6        Ross Geller   37\n7      Monica Geller   34\n8     Joey Tribbiani   38\n9      Phoebe Buffay   36\n10         Bob Dylan   41\n11      Sarah Connor   29\n12        James Dean   50\n13   Natalie Portman   31\n14       Jack Dawson   42\n15      Tracy Jordan   39\n16         Liz Lemon   37\n17     Jenna Maroney   40\n18   Kenneth Parcell   27\n19   Frank Rossitano   35\n20          Lucy Liu   50\n21      Marc Anthony   29\n22       Bruce Wayne   33\n23        Clark Kent   36\n24      Diana Prince   32\n25      Peter Parker   21\n26      Harry Potter   29\n27  Hermione Granger   28\n28       Ron Weasley   30\n29      Draco Malfoy   31\n\n              name  age    city  salary\n8  Joey Tribbiani   38  Newark   56000\n\n          name  age         city  salary\n1  Jane Smith   29  Los Angeles   65000\n\n                name  age           city    seniority  salary\n23       Clark Kent   36        Seattle  Experienced   94000\n16        Liz Lemon   37         Boston  Experienced   91000\n7     Monica Geller   34  San Francisco                80000\n6       Ross Geller   37         Boston  Experienced   72000\n3         Amy Adams   30        Seattle                71000\n13  Natalie Portman   31        Seattle                62000\n17    Jenna Maroney   40  San Francisco  Experienced   58000\n\n 75428.57\n\n city\nBoston           81500.000000\nSan Francisco    69000.000000\nSeattle          75666.666667\nName: salary, dtype: float64"
+    }
+]
