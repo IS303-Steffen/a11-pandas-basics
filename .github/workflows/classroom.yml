@@ -27,7 +27,7 @@ jobs:
         setup-command: ''
         command: python -m pytest -v tests/test_01_printed_messages.py
         timeout: 30
-        max-score: 10
+        max-score: 85
     - name: tests/test_02_excel_file_created.py
       id: tests-test-02-excel-file-created-py
       uses: classroom-resources/autograding-command-grader@v1
@@ -45,7 +45,7 @@ jobs:
         setup-command: ''
         command: python -m pytest -v tests/test_03_sufficient_comments.py
         timeout: 30
-        max-score: 1
+        max-score: 5
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
