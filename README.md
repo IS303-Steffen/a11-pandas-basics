@@ -1,7 +1,9 @@
 #### Assignment 10
 # Pandas Basics
 
-This assignment is a chance to practice the basics of using a Pandas DataFrame, including importing data to Python, accessing specific values and columns, updating values, filtering data, and sorting data
+This assignment is a chance to practice the basics of using a Pandas dataframe, including importing data to Python, accessing specific values and columns, updating values, filtering data, sorting data, and using math functions.
+
+Note that the output of this program is kind of ugly. At this point, you are just practicing the main functions of pandas. Its use will become more elegant when you combine it with databases.
 
 ## Libraries Required
 -	pandas
@@ -14,7 +16,8 @@ This assignment is a chance to practice the basics of using a Pandas DataFrame, 
 
 1. Access specific columns:
 -	Print out the city column
--	Print out the name and age columns in one print statement (remember to use [[column_name, column_name2]]
+-	Print out the name and age columns in one print statement 
+    - remember to use `[[column_name, column_name2]]`
 
 2. Update values:
 -	Update the salary of "Joey Tribbiani" to 56000 and the age of "Jane Smith" to 29. Then print out the row for Joey Tribbiani and print out the row for Jane Smith.
