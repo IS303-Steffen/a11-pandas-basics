@@ -20,7 +20,7 @@ Note that the output of this program is kind of ugly. At this point, you are jus
     - remember to use `[[column_name, column_name2]]`
 
 2. Update values:
--	Update the salary of "Joey Tribbiani" to 56000 and the age of "Jane Smith" to 29. Then print out the row for Joey Tribbiani and print out the row for Jane Smith.
+-	Update the salary of "Joey Tribbiani" to 56000 and the age of "Jane Smith" to 29. Then, in one print statement print out the rows for Joey Tribbiani and Jane Smith (so just those 2 rows, but it includes all columns).
 
 3. Inserting columns:
 -	Add a column called “seniority” to the DataFrame. It should be 4th column. By default it can have nothing in it.

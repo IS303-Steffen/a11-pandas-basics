@@ -15,6 +15,8 @@ def test_01_printed_messages(current_test_name, input_test_cases):
             
             inputs = input_test_case["inputs"]
             expected_printed_messages = input_test_case["printed_messages"]
+            expected_printed_messages_str = '\n'.join(expected_printed_messages)
+            expected_printed_messages = expected_printed_messages_str.split('\n')
             invalid_printed_messages = input_test_case["invalid_printed_messages"]
             # Load in the student's code and capture output
             manager_payload = load_student_code(current_test_name, inputs, input_test_case)
