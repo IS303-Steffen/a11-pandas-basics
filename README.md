@@ -23,7 +23,7 @@ Note that the output of this program is kind of ugly. At this point, you are jus
 -	Update the salary of "Joey Tribbiani" to 56000 and the age of "Jane Smith" to 29. Then, in one print statement print out the rows for Joey Tribbiani and Jane Smith (so just those 2 rows, but it includes all columns).
 
 3. Inserting columns:
--	Add a column called “seniority” to the DataFrame. It should be 4th column. By default it can have nothing in it.
+-	Add a column called “seniority” to the DataFrame. It should be 4th column. Make the column filled with an empty string ( `""` or `''` ) as the data.
 
 4. Updating based on a condition:
 -	Update the “seniority” column to say “Experienced” for anyone that is 35 years old or older.
