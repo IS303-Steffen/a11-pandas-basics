@@ -14,35 +14,35 @@ Note that the output of this program is kind of ugly. At this point, you are jus
 
 > Hint: For readability, I recommend putting an extra blank line between each print statement you print out below
 
-1. Access specific columns:
+2. Access specific columns:
 -	Print out the city column
 -	Print out the name and age columns in one print statement 
     - remember to use `[[column_name, column_name2]]`
 
-2. Update values:
+3. Update values:
 -	Update the salary of "Joey Tribbiani" to 56000 and the age of "Jane Smith" to 29. Then, in one print statement print out the rows for Joey Tribbiani and Jane Smith (so just those 2 rows, but it includes all columns).
 
-3. Inserting columns:
+4. Inserting columns:
 -	Add a column called “seniority” to the DataFrame. It should be 4th column. Make the column filled with an empty string ( `""` or `''` ) as the data.
 
-4. Updating based on a condition:
+5. Updating based on a condition:
 -	Update the “seniority” column to say “Experienced” for anyone that is 35 years old or older.
 
-5. Filter:
+6. Filter:
 -	Use the `.query()` method to find all individuals who are 30 years old or older and live in either "Seattle", "Boston", or "San Francisco". The result of this query should be stored as a new DataFrame (or do the query in place).
 
-6. Sort:
+7. Sort:
 -	Sort the DataFrame based on the salary column in descending order, and make sure the original DataFrame is changed, or that you store the result in a new DataFrame. Print out this DataFrame
     - At this point the DataFrame should contain a "seniority" column, and only individuals 30 years old or old that live in "Seattle", "Boston", or "San Francisco").
 
-7. Math functions:
+8. Math functions:
 -	Print out the mean of the salary column, rounded to the 2nd decimal.
     - Note that at this point, you’ve filtered out a lot of data, which is how it should be. This is the mean salary of the filtered data to this point.
 
-8. Group by:
+9. Group by:
 -	Create a new DataFrame that is grouped by “city” and make it so that you show the mean salary of each city. Print out the new DataFrame
 
-9. Exporting to a new format
+10. Exporting to a new format
 -	Export the new DataFrame you made to an Excel file called “mean_salary_by_city.xlsx”
 
 ## Example Output
@@ -111,11 +111,9 @@ Name: city, dtype: object
 28       Ron Weasley   30
 29      Draco Malfoy   31
 
-              name  age    city  salary
-8  Joey Tribbiani   38  Newark   56000
-
-          name  age         city  salary
-1  Jane Smith   29  Los Angeles   65000
+             name  age         city  salary
+8  Joey Tribbiani   38       Newark   56000
+1      Jane Smith   29  Los Angeles   65000
 
                 name  age           city    seniority  salary
 23       Clark Kent   36        Seattle  Experienced   94000
